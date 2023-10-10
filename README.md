@@ -2,19 +2,17 @@
 Author: Artem Kachan
 
 ## Instruments:
-* PHP 8.0;
+* PHP 8.2;
 * Laravel 9;
 * MySQL;
 * Nginx.
 
 ## Description
 How to use:
-- Install composer by `composer install`;
 - Set up `.env` by `.env.example`;
-- Run migrations by `php artisan migrate`;
-- Run seeder by `php artisan db:seed`;
-- Install Node by `npm install`
-- Run Node by `npm run dev`
+- Run container `docker-compose up -d`
+- Exec container `docker-compose exec laravel.test sh`
+- Run command `make build`.
 * First Admin user have next credentials: 
 - 'email' => 'admin@admin.com'`,
 - 'password' => '12345678',
